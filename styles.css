@@ -1,0 +1,181 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: rgb(255,255,237);
+    background: radial-gradient(circle, rgba(255,255,237,1) 100%, rgba(239,28,39,1) 100%);
+}
+
+header { 
+    background: rgb(210,214,21);
+    background: linear-gradient(0deg, rgba(210,214,21,1) 5%, rgba(201,48,48,1) 47%);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 0px 0px 30px 30px;
+}
+
+section {
+    margin: 20px;
+}
+
+.about h2{
+    font-size: 30px;
+}
+
+.para_and_pic{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.para_and_pic1{
+    display: flex;
+    flex-direction: row;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    border-radius: 25px;
+    /* padding-top: 30px; */
+    padding-right: 20px;
+
+}
+
+.pic1{
+    padding-top: 40px;
+    
+}
+.pic1 img{
+    border-radius: 15px;
+}
+
+.para_and_pic2{
+    display: flex;
+    flex-direction: row;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    border-radius: 25px;
+    padding-right: 20px;
+
+}
+
+.pic2{
+    padding-top: 40px;
+    padding-bottom: 20px
+    
+}
+.pic2 img{
+
+    border-radius: 15px;
+    max-width: 300px;
+    max-height: 200px;
+}
+
+
+.form form label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form form input{
+    font-size: 25px;
+    background: rgb(255,255,237);
+    background: radial-gradient(circle, rgba(255,255,237,1) 100%, rgba(239,28,39,1) 100%);
+}
+.form form select{
+    font-size: 25px;
+    background: rgb(255,255,237);
+    background: radial-gradient(circle, rgba(255,255,237,1) 100%, rgba(239,28,39,1) 100%);
+}
+
+form button{
+    font-size: 25px;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background: rgb(255,255,237);
+    background: radial-gradient(circle, rgba(255,255,237,1) 100%, rgba(239,28,39,1) 100%);
+}
+
+.registration{
+    border-radius: 25px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    
+}
+
+.registration form{
+    font-size: 25px;
+
+}
+
+.registration_pic{
+    padding-top: 20px;
+
+}
+
+.registration_pic img{
+    width: 500px;
+    height: 350px;
+    border-radius: 25px;
+}
+.form {
+    min-width: 800px;
+    background: rgb(210,214,21);
+    background: linear-gradient(0deg, rgba(210,214,21,1) 5%, rgba(201,48,48,1) 47%);
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    border-radius: 25px;
+    padding-bottom: 20px;
+}
+.form h2{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.calculator_area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    width: 350px;
+    height: 480px;
+    border: 2px solid black;
+    border-radius: 20px;
+    /* Style your calculator buttons here */
+}
+
+.calculator h2{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.calculator input{
+    font-size: 20px;
+    height: 25px;
+    width: 300px;
+}
+
+.buttons button{
+    font-size: 40px;
+    width: 55px;
+    height: 55px;
+    border-radius: 30px;
+
+}
+
+footer {
+    background: rgb(210,214,21);
+    background: linear-gradient(0deg, rgba(210,214,21,1) 5%, rgba(201,48,48,1) 47%);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

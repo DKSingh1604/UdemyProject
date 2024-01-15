@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lightning McQueen Fan Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="mcqueen.jpeg" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>Lightning McQueen Fan Website</h1>
+    </header>
+
+    <section class="about">
+        <h2>About Lightning McQueen</h2>
+        <div class="par_and_pic">
+            <div class="para_and_pic1">
+                <div class="para1">
+                    <h1>About The Car</h1>
+                    <p>Lightning McQueen is a fictional anthropomorphic stock car and is the main protagonist of the Pixar franchise Cars, primarily voiced by Owen Wilson. His appearances include the feature films Cars, Cars 2, and Cars 3, as well as in the TV series Cars Toons and Cars on the Road. Lightning is also a playable character in each of the Cars video game installments. Lightning McQueen is the face of the Cars brand, and he is a popular mascot for Disney.
+        
+                        Lightning is a professional racer in the Piston Cup racing series, which emulates the NASCAR Cup Series, and acquires several Piston Cup victories during his career. In Cars 2, he competes in the World Grand Prix, a short-lived event promoting a new alternative fuel called Allinol. At the end of Cars 3, he briefly assumes the role of Cruz Ramirez's crew chief and mentor before returning to racing. Lightning McQueen's design is loosely inspired by NASCAR Generation 4 cars; however, he has a curvaceous body like that of the Plymouth Superbird and Dodge Charger Daytona. His exhaust pipes come from the 1970s Dodge Charger, but with four (two on each side) instead of two on one side or one on both sides.</p>
+                </div>
+                <div class="pic1">
+                    <img src="picimage.jpeg" alt="">
+                    
+                </div>
+
+            </div>
+            <br>
+            <br>
+            <div class="para_and_pic2">
+                <div class="para2">
+                    <h1>Character Design</h1>
+                    <p>Lightning McQueen's design is loosely inspired by NASCAR Generation 4 cars; however, he has a curvaceous body like that of the Plymouth Superbird and Dodge Charger Daytona. His exhaust pipes come from the 1970s Dodge Charger, but with four (two on each side) instead of two on one side or one on both sides.
+
+                        His body draws cues from the design of the Ford GT40, Chevrolet Corvette, and Dodge Viper along with cab elements from a 1990s Porsche 911. Briefly in Cars, Lightning takes on a paint job which highly resembles a 1960 Chevrolet Corvette. In Cars 2, he receives new bodywork resembling a Dodge Viper GTS ACR.
+                        
+                        His number was originally 57, a reference to John Lasseter's birth year, but was changed to 95, referencing the release year of Pixar's first film Toy Story. Lightning's engine sounds emulate a Gen 4 in Cars, a mixture of a Gen 5 COT and the Chevrolet Corvette C6.R in Cars 2, and a Gen 6 in Cars.</p>
+
+                </div>
+                <div class="pic2">
+                    <img src="Dodge.jpg" alt="">
+
+                </div>
+            </div>
+        
+        </div>
+        
+    </section>
+
+    <section class="registration">
+        <div class="registration_pic">
+            <img src="fans.jpeg" alt="">
+        </div>
+        
+        <div class="form">
+            <h2>Fan Registration</h2>
+            <form action="" method="post">
+            
+    
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+                <br><br>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+        
+                <label for="Gender">Gender:</label>
+                <select id="Gender" name="Gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                    
+                </select>
+                <br><br>
+        
+                <label for="subscribe">Subscribe to Newsletter:</label>
+                <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                <br><br>
+        
+                <button>Submit</button>
+            </form>
+
+        </div>
+        
+    </section>
+
+    <section class="calculator_area">
+        <div class="calculator">
+            <h2>Basic Calculator</h2>
+        <input type="text" id="display" disabled>
+        <br><br>
+        <div class="buttons">
+            <button onclick="appendNumber('1')">1</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button onclick="appendNumber('2')">2</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button onclick="appendNumber('3')">3</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button onclick="appendOperator('+')">+</button><br><br><br>
+            <button onclick="appendNumber('4')">4</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button onclick="appendNumber('5')">5</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button onclick="appendNumber('6')">6</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button onclick="appendOperator('-')">-</button><br><br><br>
+            <button onclick="appendNumber('7')">7</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button onclick="appendNumber('8')">8</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button onclick="appendNumber('9')">9</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button onclick="appendOperator('*')">*</button><br><br><br>&nbsp;&nbsp;
+            <button onclick="appendNumber('0')">0</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button onclick="clearDisplay()">C</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button onclick="calculateResult()">=</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button onclick="appendOperator('/')">/</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+            
+        </div>
+        </div>
+        
+    </section>
+
+    <section class="weather">
+        <h2>Weather Showcase</h2>
+        <div class="weather-info">
+            <p id="temperature">Temperature: </p>
+            <p id="windSpeed">Wind Speed: </p>
+            <p id="weatherMain">Weather Main: </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Lightning McQueen Fan Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+</body>
+
+</html>
